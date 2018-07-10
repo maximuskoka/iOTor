@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
-    public class Squaring : OoneCalculator
+    public class Squaring : IOoneCalculator
     {
         public double Calculate(double firstArgument)
         {

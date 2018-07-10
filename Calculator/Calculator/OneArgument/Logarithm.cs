@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
-    public class Logarithm : OoneCalculator 
+    public class Logarithm : IOoneCalculator 
     {
         public double Calculate(double firstArgument)
         {

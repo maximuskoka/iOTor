@@ -1,6 +1,6 @@
-﻿namespace Calculator
+﻿namespace Calculator.TwoArguments
 {
-    public interface Calculator
+    public interface ICalculator
     {
         double Calculate(double firstArgument, double secondArgument);
     }

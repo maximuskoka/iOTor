@@ -1,6 +1,6 @@
-﻿namespace Calculator
+﻿namespace Calculator.TwoArguments
 {
-    public class Substraction: Calculator
+    public class Substraction: ICalculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

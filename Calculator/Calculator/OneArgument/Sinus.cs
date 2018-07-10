@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
-    public class Sinus : OoneCalculator
+    public class Sinus : IOoneCalculator
     {
         public double Calculate(double firstArgument)
         {

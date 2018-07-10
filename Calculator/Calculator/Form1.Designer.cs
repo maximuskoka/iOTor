@@ -38,29 +38,32 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.eventLog1 = new System.Diagnostics.EventLog();
             this.Logarithm = new System.Windows.Forms.Button();
             this.Sinus = new System.Windows.Forms.Button();
             this.Squaring = new System.Windows.Forms.Button();
             this.Module = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 19);
+            this.textBox1.Location = new System.Drawing.Point(12, 22);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(108, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(126, 19);
+            this.textBox2.Location = new System.Drawing.Point(126, 22);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 20);
+            this.textBox2.Size = new System.Drawing.Size(108, 20);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(246, 19);
+            this.textBox3.Location = new System.Drawing.Point(240, 22);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(108, 20);
             this.textBox3.TabIndex = 2;
@@ -68,9 +71,9 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(12, 44);
+            this.Multiply.Location = new System.Drawing.Point(12, 47);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(44, 44);
+            this.Multiply.Size = new System.Drawing.Size(49, 44);
             this.Multiply.TabIndex = 3;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = true;
@@ -78,9 +81,9 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(74, 44);
+            this.Division.Location = new System.Drawing.Point(71, 47);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(46, 44);
+            this.Division.Size = new System.Drawing.Size(49, 43);
             this.Division.TabIndex = 4;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
@@ -88,7 +91,7 @@
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(126, 45);
+            this.Add.Location = new System.Drawing.Point(126, 48);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(49, 44);
             this.Add.TabIndex = 5;
@@ -98,7 +101,7 @@
             // 
             // Substraction
             // 
-            this.Substraction.Location = new System.Drawing.Point(192, 43);
+            this.Substraction.Location = new System.Drawing.Point(186, 48);
             this.Substraction.Name = "Substraction";
             this.Substraction.Size = new System.Drawing.Size(48, 44);
             this.Substraction.TabIndex = 6;
@@ -109,7 +112,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 3);
+            this.label1.Location = new System.Drawing.Point(37, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 7;
@@ -119,7 +122,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(135, 3);
+            this.label2.Location = new System.Drawing.Point(141, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 8;
@@ -129,28 +132,33 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(289, 3);
+            this.label3.Location = new System.Drawing.Point(269, 6);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "answer";
+            this.label3.Text = "Answer";
             this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // eventLog1
+            // 
+            this.eventLog1.SynchronizingObject = this;
+            this.eventLog1.EntryWritten += new System.Diagnostics.EntryWrittenEventHandler(this.eventLog1_EntryWritten);
             // 
             // Logarithm
             // 
-            this.Logarithm.Location = new System.Drawing.Point(246, 44);
+            this.Logarithm.Location = new System.Drawing.Point(240, 48);
             this.Logarithm.Name = "Logarithm";
-            this.Logarithm.Size = new System.Drawing.Size(44, 43);
+            this.Logarithm.Size = new System.Drawing.Size(49, 43);
             this.Logarithm.TabIndex = 10;
-            this.Logarithm.Text = "ln";
+            this.Logarithm.Text = "log";
             this.Logarithm.UseVisualStyleBackColor = true;
             this.Logarithm.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(308, 44);
+            this.Sinus.Location = new System.Drawing.Point(299, 48);
             this.Sinus.Name = "Sinus";
-            this.Sinus.Size = new System.Drawing.Size(46, 43);
+            this.Sinus.Size = new System.Drawing.Size(49, 43);
             this.Sinus.TabIndex = 11;
             this.Sinus.Text = "sin";
             this.Sinus.UseVisualStyleBackColor = true;
@@ -158,7 +166,7 @@
             // 
             // Squaring
             // 
-            this.Squaring.Location = new System.Drawing.Point(126, 94);
+            this.Squaring.Location = new System.Drawing.Point(126, 99);
             this.Squaring.Name = "Squaring";
             this.Squaring.Size = new System.Drawing.Size(49, 43);
             this.Squaring.TabIndex = 12;
@@ -168,9 +176,9 @@
             // 
             // Module
             // 
-            this.Module.Location = new System.Drawing.Point(192, 93);
+            this.Module.Location = new System.Drawing.Point(186, 99);
             this.Module.Name = "Module";
-            this.Module.Size = new System.Drawing.Size(48, 42);
+            this.Module.Size = new System.Drawing.Size(48, 43);
             this.Module.TabIndex = 13;
             this.Module.Text = "mod";
             this.Module.UseVisualStyleBackColor = true;
@@ -180,7 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 143);
+            this.ClientSize = new System.Drawing.Size(358, 148);
             this.Controls.Add(this.Module);
             this.Controls.Add(this.Squaring);
             this.Controls.Add(this.Sinus);
@@ -197,7 +205,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
