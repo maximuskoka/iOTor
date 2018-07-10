@@ -7,10 +7,27 @@ C:\Gta\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculato
 C:\Gta\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
 C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.exe
 C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\obj\x86\Debug\Calculator.exe
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\bin\Debug\Calculator.exe
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\bin\Debug\Calculator.pdb
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
-C:\Users\TEMP\Desktop\12\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+C:\GitHub\doodle2\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\GitHub\doodle2\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
+C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\GitHub\doodle2\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\bin\Debug\Calculator.exe
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\bin\Debug\Calculator.pdb
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.Form1.resources
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\TEMP\Desktop\Calculator — копия\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\TEMP\Documents\GitHub\iOTor\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
