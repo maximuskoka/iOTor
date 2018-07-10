@@ -15,9 +15,9 @@ namespace Calculator
         {
             InitializeComponent();
         }
+        float a, b, c, z;
         private void button1_Click(object sender, EventArgs e)
         {
-
 
         }
 
@@ -48,31 +48,18 @@ namespace Calculator
 
         private void button14_Click(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(textBox1.Text);
-            double secondNumber = Convert.ToDouble(textBox2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "plus":
-                    result = firstNumber + secondNumber;
-                    break;
-                case "minus":
-                    result = firstNumber - secondNumber;
-                    break;
-                case "multiply":
-                    result = firstNumber * secondNumber;
-                    break;
-                case "devision":
-                    result = firstNumber / secondNumber;
-                    break;
-                default:
-                    throw new Exception("Error");
-                    
-            }
-            resultt.Text = result.ToString();
+            double first_number = Convert.ToDouble(textBox1.Text);
+            double second_nuber = Convert.ToDouble(textBox2.Text);
+            double amount = first_number + second_nuber;
+            label1.Text = amount.ToString();
         }
+
         private void button17_Click(object sender, EventArgs e)
         {
+            double first_number = Convert.ToDouble(textBox1.Text);
+            double second_nuber = Convert.ToDouble(textBox2.Text);
+            double subtraction = first_number - second_nuber;
+           label1.Text = subtraction.ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -82,20 +69,26 @@ namespace Calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
+            double first_number = Convert.ToDouble(textBox1.Text);
+            double second_nuber = Convert.ToDouble(textBox2.Text);
+            double multiplication = first_number * second_nuber;
+            label1.Text = multiplication.ToString();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
+            double first_number = Convert.ToDouble(textBox1.Text);
+            double second_nuber = Convert.ToDouble(textBox2.Text);
+            double division = first_number / second_nuber;
+            label1.Text = division.ToString();
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            label1.Text = string.Empty;
             
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
